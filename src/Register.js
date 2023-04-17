@@ -44,7 +44,7 @@ export default function SignUp() {
       }
 
       try {
-        const response = await fetch("http://localhost:3333/register", {
+        const response = await fetch("https://fair-cyan-penguin-toga.cyclic.app/register", {
           method: "POST", // or 'PUT'
           headers: {
             "Content-Type": "application/json",

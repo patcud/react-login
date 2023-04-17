@@ -42,7 +42,7 @@ export default function SignInSide() {
       }
 
       try {
-        const response = await fetch("http://localhost:3333/login", {
+        const response = await fetch("https://fair-cyan-penguin-toga.cyclic.app/login", {
           method: "POST", // or 'PUT'
           headers: {
             "Content-Type": "application/json",

@@ -40,7 +40,7 @@ export default function Album() {
 
     async function postJSON(token) {
       try {
-        const response = await fetch("http://localhost:3333/authen", {
+        const response = await fetch("https://fair-cyan-penguin-toga.cyclic.app/authen", {
           method: "POST", // or 'PUT'
           headers: {
             "Content-Type": "application/json",
